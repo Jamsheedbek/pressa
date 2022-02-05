@@ -1,0 +1,50 @@
+.footer {
+    padding: 15px 0;
+
+    &-bottom {
+        display: flex;
+        align-items: center;
+
+        &__logo {
+            margin-right: 98px;
+        }
+
+        &__link {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            color: #020cbb;
+
+            &:nth-child(1) {
+                margin-right: 37px;
+            }
+
+            &:nth-child(2) {
+                margin-right: 170px;
+            }
+        }
+
+        &__tel {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            color: #020cbb;
+            text-decoration: none;
+        }
+
+        &__social {
+            margin-left: auto;
+
+            .media {
+                margin-left: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.navbar-selects {
+    div {
+        margin: 0;
+        padding: 0;
+        width: 220px;
+        padding: 12px 15px;
+        box-sizing: border-box;
+        background: #ffffff;
+        border: 1.5px solid #020cbb;
+        box-sizing: border-box;
+        border-radius: 49px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #020cbb;
+        cursor: pointer;
+        outline: none;
+
+        input {
+            margin: 0;
+            padding: 0;
+            color: #020cbb;
+
+            // &:active {
+            //     border: none;
+            // }
+        }
+        &::before {
+            border: none;
+        }
+        &::after {
+            border: none;
+        }
+    }
+}
+
+.MuiInput-underline:hover:not(.Mui-disabled)::before {
+    border-bottom: 0 transparent !important;
+}

@@ -1,0 +1,120 @@
+.about {
+    display: flex;
+    align-items: flex-start;
+
+    &-left {
+        margin-right: 91px;
+
+        &__wrapper {
+            max-width: 262px;
+        }
+
+        &__title {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 15px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 30px;
+            color: #020cbb;
+        }
+
+        &__text {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 10px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 20px;
+            text-decoration-line: underline;
+            color: #020cbb;
+        }
+    }
+
+    &-right {
+        max-width: 700px;
+
+        &__title {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 30px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+            color: #020cbb;
+        }
+
+        &__small-text {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 30px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 25px;
+            color: #020cbb;
+        }
+
+        &__text {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 47px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 30px;
+            color: #020cbb;
+        }
+
+        &__wrapper {
+            padding: 26px 35px;
+            margin-bottom: 30px;
+            background-color: rgba($color: #020cbb, $alpha: 0.1);
+
+            p {
+                margin: 0;
+                padding: 0;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 22px;
+                color: #0085ff;
+            }
+        }
+    }
+}
+
+.link {
+    padding-left: 27px;
+    margin-right: 24px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #020cbb;
+    text-decoration: none;
+
+    &:nth-child(1) {
+        background-image: url('../../assets/images/time.png');
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+        background-position: left;
+    }
+
+    &:nth-child(2) {
+        background-image: url('../../assets/images/share.png');
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+        background-position: left;
+    }
+}
